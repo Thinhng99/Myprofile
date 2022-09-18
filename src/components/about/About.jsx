@@ -1,5 +1,5 @@
 import "./about.css";
-import Award from "../../img/award.png";
+import Award from "../../img/award.jpg";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-9/123698861_2755044114763004_9110128138013915769_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=qaPvCmmYs5QAX_J7SZm&_nc_ht=scontent.fhan2-4.fna&oh=00_AT_EisSdxLdlqxhhMubL352uY0nDCE7GSv2MZKJH0sWF-g&oe=634B08A8"
             alt=""
             className="a-img"
           />
@@ -17,22 +17,17 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          My story
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        My field of study is mechatronics but I feel I am very interested in web programming, I want to study and develop a career in this industry. I hope the company will give me the opportunity to stick with the company for a long time.
         </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
+            <h4 className="a-award-title">"GALA DINNER" of theSchool of Mechanical Engineering</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+            BESTPRESENTATION AWARD 2021-2022 
             </p>
           </div>
         </div>

@@ -63,7 +63,7 @@
 
 /* right */
 .i-bg{
- 
+    background-image: url(/src/img/bg.jpg);
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
     background-color:#5ab257 ;
     width: 100%;
