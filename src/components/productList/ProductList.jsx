@@ -1,6 +1,6 @@
 import "./productList.css";
-import Product from "../product/Product";
 import { products } from "../../data";
+import Product from "../product/Product";
 
 const ProductList = () => {
   return (
@@ -8,7 +8,7 @@ const ProductList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">Create & inspire</h1>
         <p className="pl-desc">
-        I hope the company will give me the opportunity to stick with the company for a long time.
+          I hope the company will give me the opportunity to stick with the company for a long time.
         </p>
       </div>
       <div className="pl-list">

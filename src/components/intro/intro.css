@@ -95,5 +95,7 @@
 .i-desc{
       display: none;
     }
-    
-  }
+.i-bg{
+    background-size: 480px;
+}    
+}
